@@ -1,0 +1,27 @@
+.specification {
+    padding-bottom: 94px;
+}
+
+.clients-title,
+.specification-title,
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.specification-list {
+    display: flex;
+}
+
+.specification-item {
+    width: calc((100% - 60px) / 3);
+}
+
+.specification-item:not(:first-child) {
+    margin-left: 30px;
+}
